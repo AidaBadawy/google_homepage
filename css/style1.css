@@ -71,7 +71,7 @@ a:hover{
     border-radius: 24px;
     border: none;
     margin: 20px auto;
-    padding: 6px 16px 0 16px;
+    padding: 5px 8px 0 16px;
     width: 520px;
     height: 40px;
 }
@@ -94,6 +94,16 @@ a:hover{
     height: 34px;
 }
 
+#keyboard{
+	width: 24px;
+	height: 24px;
+	align-items: center;
+	padding: 5px 12px;
+	display: flex;
+	background: url(../img/keyboardicon.png) 50% 50% no-repeat;
+	cursor: pointer;
+}
+
 #voice-icon {
     width: 34px;
     height: 34px;
@@ -101,6 +111,7 @@ a:hover{
     background-size: 24px 24px;
     cursor: pointer;
 }
+
 
 #main input[type="submit"]{
     height: 36px;
